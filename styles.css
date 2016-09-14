@@ -1,0 +1,86 @@
+.octodex{
+  /*border: 1px solid red;*/
+  width: 100%;
+}
+
+.octocat{
+/*border: 1px solid green;*/
+width: 400px;
+display: inline-block;
+margin: 9px;
+}
+
+
+.octocat img{
+  width: 100%;
+  height: auto;
+  border: 1px solid #CACACA;
+  vertical-align: middle;
+}
+
+.image-footer{
+  border-bottom: 1pt solid #CACACA;
+  overflow: auto;
+  position: relative;
+  margin-top: -1px;
+  padding-bottom: 10px;
+}
+
+.image-number{
+  color: #CACACA;
+  float: left;
+  padding-top: 16px;
+}
+
+.image-number:before{
+  content: "#";
+}
+
+
+.image-caption{
+  display: inline-block;
+  float: right;
+}
+
+.image-caption span{
+color: #777777;
+font-family: arial;
+font-weight: bold;
+font-size: 10pt;
+}
+
+.authors{
+  display: inline-block;
+}
+
+.authors img {
+  width: 24px;
+  height: auto;
+  margin-top: 12px;
+}
+
+a{
+  color: #333333;
+  text-decoration: none;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 11pt;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.image-footer:before{
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-top-color: #cacaca;
+  position: absolute;
+  right: 7px;
+  top: 0;
+}
